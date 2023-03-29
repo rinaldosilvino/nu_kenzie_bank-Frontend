@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Inter:wght@400;500&family=Nunito&family=Poppins&family=Roboto:wght@500&display=swap");
+:root {
+    --font-1: "Inter", sans-serif;
+    --font-2: "Nunito", sans-serif;
+
+    --color-primary: #fd377e;
+    --color-primary-2: #e34981;
+    --color-secondary: #03b898;
+    --grey-100: #212529;
+    --grey-50: #868e96;
+    --grey-4: #212529;
+    --grey-3: #868e96;
+    --grey-2: #e9ecef;
+    --grey-1: #f8f9fa;
+    --grey-0: #f8f9fa;
+}
+
+.menuDiv_parent {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-2);
+    box-sizing: border-box;
+}
+.menu-div h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--grey-4);
+}
+.menuDiv_button {
+    box-sizing: border-box;
+}
+.menu-button-all {
+    width: 92px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: var(--grey-2);
+    border: none;
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    color: var(--grey-3);
+}
+.menu-button-todos {
+    width: 69px;
+    color: #ffffff;
+    background-color: var(--color-primary);
+}
+
+.menu_divAlert {
+    margin-top: 5px;
+    width: 560px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.menu-div-warning h2 {
+    text-align: left;
+    width: 560px;
+    font-family: var(--font-2);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--grey-3);
+}
+
+/* Hover */
+.menu-button-entradas:hover {
+    background-color: var(--grey-3);
+    color: #ffffff;
+}
+.menu-button-despesas:hover {
+    background-color: var(--grey-3);
+    color: #ffffff;
+}
+@media (max-width: 1000px) {
+    .menu_divAlert {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    .menuDiv_parent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: var(--font-2);
+        width: 500px;
+        height: 60px;
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width: 1130px) {
+    .menuDiv_parent {
+        width: 560px;
+        height: 60px;
+        box-sizing: border-box;
+    }
+}

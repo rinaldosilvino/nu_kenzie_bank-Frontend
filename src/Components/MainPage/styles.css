@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Inter:wght@400;500&family=Nunito&family=Poppins&family=Roboto:wght@500&display=swap");
+:root {
+    --font-1: "Inter", sans-serif;
+    --font-2: "Nunito", sans-serif;
+
+    --color-primary: #fd377e;
+    --color-primary-2: #e34981;
+    --color-secondary: #03b898;
+    --grey-100: #212529;
+    --grey-50: #868e96;
+    --grey-4: #212529;
+    --grey-3: #868e96;
+    --gray-2: #e9ecef;
+    --grey-1: #f8f9fa;
+    --grey-0: #f8f9fa;
+}
+.home-section-parent {
+    background-color: #282c34;
+}
+header {
+    height: 50px;
+    background-color: #282c34;
+}
+.page-main {
+    min-height: 100vh;
+    width: 100vw;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: var(--font-2);
+}
+.page-section-left {
+    margin: 20px;
+    width: 20%;
+    min-width: 300px;
+    text-align: left;
+    margin-right: 15px;
+}
+.page-section-left img {
+    width: 122px;
+    height: 19px;
+}
+.page-section-left h1 {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 48px;
+}
+.page-section-left h4 {
+    font-size: 16px;
+    line-height: 26px;
+}
+.page-section-left button {
+    width: 241px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+.page-section-right img {
+    width: 80%;
+    min-width: 310px;
+}
+.page-section-right {
+    width: 50%;
+    min-width: 300px;
+    margin-right: 15px;
+}
+
+footer {
+    background-color: #282c34;
+    margin: 0;
+    height: 50px;
+}
+
+@media (max-width: 800px) {
+    .page-section-right {
+        display: none;
+    }
+}

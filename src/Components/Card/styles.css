@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Inter:wght@400;500&family=Nunito&family=Poppins&family=Roboto:wght@500&display=swap");
+:root {
+    --font-1: "Inter", sans-serif;
+    --font-2: "Nunito", sans-serif;
+
+    --color-primary: #fd377e;
+    --color-primary-2: #e34981;
+    --color-secondary: #03b898;
+    --grey-100: #212529;
+    --grey-50: #868e96;
+    --grey-4: #212529;
+    --grey-3: #868e96;
+    --gray-2: #e9ecef;
+    --grey-1: #f8f9fa;
+    --grey-0: #f8f9fa;
+}
+ul {
+    padding: 0;
+}
+.card-section {
+    margin: 20px 0 50px 0;
+}
+.cardOne {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px 15px 15px 15px;
+    width: 350px;
+    height: 70px;
+    border-radius: 4px;
+    background-color: var(--grey-1);
+    box-sizing: border-box;
+    border-left: var(--color-secondary) 4px solid;
+}
+.cardTwo {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px 15px 15px 15px;
+    width: 350px;
+    height: 70px;
+    border-radius: 4px;
+    background-color: var(--grey-1);
+    box-sizing: border-box;
+    border-left: var(--gray-2) 4px solid;
+}
+.cardOne_description {
+    font-family: var(--font-2);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    }
+.cardOne_h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--grey-4);
+}
+.cardOne_span{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--grey-3);
+}
+
+.cardOne_value {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-2);
+}
+.cardOne_spanValue {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--grey-4);
+    margin-right: 63px;
+    }
+.cardOne_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    background-color: var(--gray-2);
+    border-radius: 2px;
+}
+.cardOne_imgValue {
+    width: 9px;
+    height: 10px;
+}
+/* Hover */
+.card-div:hover {
+    background-color: #ffffff;
+    box-shadow: 0 4px 32px -12px #00000065;
+    transition: 0.5s;
+}
+.cardOne_img:hover {
+    cursor: pointer;
+    background-color: var(--grey-3);
+}
+.cardOne_imgValue:hover {
+    filter: brightness(100);
+}
+
+.cardDiv_two {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px 15px 15px 15px;
+    width: 350px;
+    height: 70px;
+    border-radius: 4px;
+    background-color: var(--grey-1);
+    box-sizing: border-box;
+    border-left: var(--gray-2) 4px solid;
+}
+
+.cardDiv_two:hover {
+    background-color: #ffffff;
+    box-shadow: 0 4px 32px -12px #00000065;
+    transition: 0.5s;
+}
+
+.cardDiv_empty {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px 15px 15px 15px;
+    width: 350px;
+    height: 70px;
+    border-radius: 4px;
+    background-color: var(--grey-1);
+    box-sizing: border-box;
+    border-left: var(--gray-2) 4px solid;
+}
+
+.emptyDiv_one {
+    margin-top: 8px;
+    width: 300px;
+    height: 13px;
+    background-color: var(--gray-2);
+}
+.emptyDiv_two {
+    width: 76px;
+    height: 13px;
+    background-color: var(--gray-2);
+}
+.cardDiv_empty:hover {
+    background-color: #ffffff;
+    box-shadow: 0 4px 32px -12px #00000065;
+    transition: 0.5s;
+}
+
+@media (min-width: 800px) {
+    .card-section {
+        margin: 0px 0 50px 0;
+    }
+}
+
+@media (min-width: 1000px) {
+    .cardDiv_empty {
+        margin-bottom: 30px;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 8px 15px 15px 15px;
+        width: 500px;
+        height: 87px;
+        border-radius: 4px;
+        background-color: var(--grey-1);
+        box-sizing: border-box;
+        border-left: var(--gray-2) 4px solid;
+}
+.emptyDiv_one {
+    margin-top: 8px;
+    width: 330px;
+    height: 13px;
+    background-color: var(--gray-2);
+}
+}
+@media (min-width: 1000px) {
+.cardDiv_empty {
+    padding: 8px 15px 15px 15px;
+    width: 560px;
+    height: 87px;
+    box-sizing: border-box;
+}
+}
+
+@media (min-width: 1000px) {
+.cardDiv_two {
+    padding: 8px 15px 15px 15px;
+    width: 560px;
+    height: 87px;
+    box-sizing: border-box;
+}
+}
+
+@media (min-width: 1000px) {
+.cardOne {
+    padding: 8px 15px 15px 15px;
+    width: 560px;
+    height: 87px;
+    box-sizing: border-box;
+}
+}

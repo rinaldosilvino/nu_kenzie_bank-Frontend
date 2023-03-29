@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Inter:wght@400;500&family=Nunito&family=Poppins&family=Roboto:wght@500&display=swap");
+:root {
+    --font-1: "Inter", sans-serif;
+    --font-2: "Nunito", sans-serif;
+
+    --color-primary: #fd377e;
+    --color-primary-2: #e34981;
+    --color-secondary: #03b898;
+    --grey-100: #212529;
+    --grey-50: #868e96;
+    --grey-4: #212529;
+    --grey-3: #868e96;
+    --gray-2: #e9ecef;
+    --grey-1: #f8f9fa;
+    --grey-0: #f8f9fa;
+}
+
+.total-div {
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    width: 350px;
+    height: 96px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 32px -12px #00000050;
+    box-sizing: border-box;
+    font-family: var(--font-2);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.total-span-total {
+    color: var(--grey-4);
+}
+.total-span-price {
+    color: var(--color-primary);
+}

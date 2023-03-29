@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Inter:wght@400;500&family=Nunito&family=Poppins&family=Roboto:wght@500&display=swap");
+:root {
+    --font-1: "Inter", sans-serif;
+    --font-2: "Nunito", sans-serif;
+    --color-primary: #fd377e;
+    --color-primary-2: #e34981;
+    --color-secondary: #03b898;
+    --grey-100: #212529;
+    --grey-50: #868e96;
+    --grey-4: #212529;
+    --grey-3: #868e96;
+    --grey-2: #e9ecef;
+    --grey-1: #f8f9fa;
+    --grey-0: #f8f9fa;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    width: 100%;
+    height: 88px;
+    background-color: var(--grey-1);
+    box-shadow: 0 4px 32px -12px #00000065;
+    box-sizing: border-box;
+}
+.logodiv {
+    box-sizing: border-box;
+}
+.logodiv img {
+    width: 122px;
+    height: 19px;
+}
+
+.startDiv {
+    box-sizing: border-box;
+}
+.startDiv button {
+    font-family: var(--font-2);
+    width: 64px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: var(--grey-2);
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 600;
+    color: var(--grey-3);
+}
+
+/* Hover */
+.startDiv button:hover {
+    background-color: var(--grey-3);
+    color: #ffffff;
+}
+@media (min-width: 800px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: unset;
+        padding: 0 60px 0 60px;
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width: 470px) {
+    .header {
+        padding: 0 60px 0 50px;
+    }
+}
+@media (min-width: 470px) {
+    .header{
+        padding: 0 60px 0 50px;
+    }
+}
+@media (min-width: 570px) {
+    .header {
+        padding: 0 60px 0 80px;
+    }
+}
+@media (min-width: 700px) {
+    .header {
+        padding: 0 60px 0 100px;
+    }
+}
+@media (min-width: 860px) {
+    .header {
+        padding: 0 60px 0 130px;
+    }
+}
+@media (min-width: 1050px) {
+    .header {
+        padding: 0 60px 0 150px;
+    }
+}
+@media (min-width: 1250px) {
+    .header {
+        padding: 0 130px 0 180px;
+    }
+}
+@media (min-width: 1330px) {
+    .header {
+        padding: 0 180px 0 180px;
+    }
+}
+@media (min-width: 1500px) {
+    .header {
+        padding: 0 265px 0 265px;
+    }
+}
+@media (min-width: 1670px) {
+    .header {
+        padding: 0 330px 0 330px;
+    }
+}
+@media (min-width: 1850px) {
+    .header {
+        padding: 0 400px 0 400px;
+    }
+}
+@media (min-width: 2000px) {
+    .header {
+        padding: 0 460px 0 460px;
+    }
+}
+@media (min-width: 2350px) {
+    .header {
+        padding: 0 570px 0 570px;
+    }
+}
+@media (min-width: 1050px) {
+    main {
+        padding: 0 100px 0 100px;
+    }
+}
+@media (min-width: 1250px) {
+    main {
+        padding: 0 180px 0 180px;
+    }
+}
+
+@media (min-width: 1450px) {
+    main {
+        padding: 0 265px 0 265px;
+    }
+}
+@media (min-width: 1670px) {
+    main {
+        padding: 0 330px 0 330px;
+    }
+}
+@media (min-width: 1850px) {
+    main {
+        padding: 0 400px 0 400px;
+    }
+}
+@media (min-width: 2000px) {
+    main {
+        padding: 0 460px 0 460px;
+    }
+}
+@media (min-width: 2350px) {
+    main {
+        padding: 0 570px 0 570px;
+    }
+}
