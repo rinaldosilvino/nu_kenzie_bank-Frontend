@@ -37,5 +37,5 @@ yarn start
 
 # Deploy do projeto
 ```
-react-entrega-s1-nu-kenzie-rinaldosilvino.vercel.app
+https://react-entrega-s1-nu-kenzie-rinaldosilvino.vercel.app/
 ```
